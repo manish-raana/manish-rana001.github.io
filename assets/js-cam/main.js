@@ -9,8 +9,8 @@
 
 // Put variables in global scope to make them available to the browser console.
 const constraints = window.constraints = {
-  audio: false,
-  video: { facingMode: "false"  }
+   audio: true,
+   video: { facingMode: { exact: "environment" } } 
 };
 //changed facing mode
 function handleSuccess(stream) {
@@ -43,17 +43,20 @@ function errorMsg(msg, error) {
 }
 
 async function init(e) {
-  try {
-    const stream = await navigator.mediaDevices.getUserMedia();
-    handleSuccess(stream);
-    video: {deviceId: videoSource ? {exact: videoSource} : undefined}
-    e.target.disabled = true;
-  } catch (e) {
-    handleError(e);
-  }
+  navigator.mediaDevices.getUserMedia(constraints)
+.then(function(mediaStream) {
+  var video = document.querySelector('video');
+  video.srcObject = mediaStream;
+  video.onloadedmetadata = function(e) {
+    video.play();
+  };
+})
+.catch(function(err) { console.log(err.name + ": " + err.message); });
 }
 
 //document.querySelector('#showVideo').addEventListener('click', e => init(e));
 //window.addEventListener('load', e => init(e), false);
 
 init();
+
+
