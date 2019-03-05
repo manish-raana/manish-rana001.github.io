@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'hereabouts';
+    src: url('HereaboutsBold.eot');
+    src: url('HereaboutsBold.eot?#iefix') format('embedded-opentype'),
+        url('HereaboutsBold.woff2') format('woff2'),
+        url('HereaboutsBold.woff') format('woff'),
+        url('HereaboutsBold.ttf') format('truetype'),
+        url('HereaboutsBold.svg#HereaboutsBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('BebasNeue.eot');
+    src: url('BebasNeue.eot?#iefix') format('embedded-opentype'),
+        url('BebasNeue.woff2') format('woff2'),
+        url('BebasNeue.woff') format('woff'),
+        url('BebasNeue.ttf') format('truetype'),
+        url('BebasNeue.svg#BebasNeue') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Quincho Script PERSONAL USE';
+    src: url('QuinchoScriptPERSONALUSE.eot');
+    src: url('QuinchoScriptPERSONALUSE.eot?#iefix') format('embedded-opentype'),
+        url('QuinchoScriptPERSONALUSE.woff2') format('woff2'),
+        url('QuinchoScriptPERSONALUSE.woff') format('woff'),
+        url('QuinchoScriptPERSONALUSE.ttf') format('truetype'),
+        url('QuinchoScriptPERSONALUSE.svg#QuinchoScriptPERSONALUSE') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BPreplay';
+    src: url('BPreplay-BoldItalic.eot');
+    src: url('BPreplay-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('BPreplay-BoldItalic.woff2') format('woff2'),
+        url('BPreplay-BoldItalic.woff') format('woff'),
+        url('BPreplay-BoldItalic.ttf') format('truetype'),
+        url('BPreplay-BoldItalic.svg#BPreplay-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}

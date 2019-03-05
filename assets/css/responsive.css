@@ -1,0 +1,151 @@
+@media screen and (max-width:560px) {
+.mobC{display: block}
+.nodesk{display: none}
+
+tabpd a{font-size: 22px; padding: 5px 20px;margin: 0 0 0 10px;}
+.uploadpic li{width: 22%;margin: 10px 5px}
+.boxpd.sml{width: 46%}
+.pdrd h4{font-size: 20px}
+.uploadp{top: 50%;left: 1%;width: 98%;margin: -314px 0 0;}
+.hdrbgslt li{width: 90%}
+
+.tabpd{text-align: center;}
+.tabpd a{width: 44%;margin: 5px;padding: 5px 10px;font-size: 4.5vw}
+.pdintro h3{font-size: 7vw}
+.pdintro p{font-size: 3.8vw;line-height: 5.5vw}
+.uploadpic li{width: 45%;font-size: 3.5vw}
+.uploadpic h5{font-size: 5vw}
+.mpbg{width: 95%;font-size: 3.5vw}
+.boxpd.sml{width: 100%;margin: 10px 0;}
+.boxpd{margin: 15px 0;}
+.pdrd{width: 85%;}
+.pdrd h4{font-size: 5vw}
+.pdnote{display: none}
+.topbtns{float: none;width: 100%;text-align: center;margin-bottom: 20px}
+.popttl{font-size: 3.5vw}
+.uploadp{top: 1%;margin-top: 0;}
+.radbtn { right: 4%;}
+.bgtabs{text-align: center}
+.bgtabs a{margin: 3px}
+.bgtabs a{font-size: 4vw}
+.radbtn {right: 4%;}
+
+.image-wrapper{padding: 0 0 10px}
+.croppic input[type=submit]{font-size: 4vw;margin: 5px}
+.mc3box li{width: 40%}
+.commtbl{overflow: auto}
+.commtbl table{	width: 1000px;}
+
+.hometopM{margin: 10px 1%;}
+.hometopM span, .htmryt{width: 100%}
+i.closexb{background: url(../images/close-x.png);background-size: 100%}
+.jtinner{width: 100%;overflow: scroll}
+.jobtbl{margin: 40px 0;}
+.jobtbl table{width: 800px;}
+#content .cbiL ul{height:auto!important;}
+}
+@media screen and (max-width:480px) {
+html, body{-webkit-overflow-scrolling: touch;}
+.currentPT, .numProf, .topBar h2, .rytD a{font-size: 3.8vw}
+.locC, .blk-btm a, .abou{font-size: 4.3vw}
+.topBar h2 small, .btmBar li{font-size: 3vw}
+.topR h6{font-size: 2.5vw}
+.priceMon h5{font-size:3.2vw}
+.priceMon h5 small{font-size: 2vw}
+.rytD h3{font-size: 4.2vw; line-height: 4.2vw}
+.ebox.thrdProf .rytD h3{font-size: 5vw;line-height: 5vw}
+.profBtm h4{font-size: 5vw;}
+.hours, .premChl li{font-size: 5.2vw;}
+.subHdr h3{font-size: 5.5vw}
+.top-slogan{font-size: 7vw}
+.profD p, .blk-btm h3 small{font-size: 3.8vw}
+.profD li span{font-size: 3vw}
+.profD h3{font-size: 5.5vw}
+.pvNum, .blk-btm h3, .premChl li a span, a.pnkBtn{font-size: 4.5vw}
+a.subscribe-media{font-size: 6.4vw;line-height: 6.4vw}
+a.subscribe-media small{font-size: 4.5vw; line-height: 4.5vw}
+.gal-name{font-size: 8vw}
+.gal-name small{font-size: 7vw}
+.gal-loc, .amt, .deTtlB{font-size: 7vw}
+.opt-btm li{text-align: center;vertical-align: top}
+.opt-btm li p, .opt-btm li h6, .opt-btm li h5{display: block;padding: 5px 0;}
+.opt-btm li h6 small{width: 80px;margin: 0 auto}
+.prev-full a{padding: 14px 0;}
+.sps-top h4{font-size:5.5vw;}
+.commtab h2{font-size: 6vw}
+.mc3box li{width: 100%;margin: 10px 0;}
+.mc3box li.commpnk{padding-right: 110px;}
+.mc3box li button{right: 0;height: 122px;height: 100%;font-size: 4.5vw}
+.commtab h3, .mc3box li h4, .commpnk i{font-size: 5.2vw}
+.commtbl td{padding: 8px;font-size: 3.7vw;}
+.commtbl td.jchdr, .mc3box li h6{font-size: 3.9vw}
+.mc3box li h5{font-size: 6vw}
+.htmryt h4{font-size: 6vw}
+.htmryt p{font-size: 3.8vw;line-height: 6vw}
+.htmryt a{font-size: 5vw}
+.hbboxe{width: 92%;margin:10px 4% }
+.hbdtls p{min-height: inherit}
+.jobtbl h3{font-size: 6.5vw}
+.jobtbl td{padding: 10px;font-size: 3.7vw;}
+.jobtbl td.jchdr{font-size: 4vw;}
+a.getbtn{font-size: 3.5vw;}
+.sps-mdl p{padding: 0 10px;}
+.deDrp{width: 75%;margin: 0 15% 0 -2px;}
+}
+@media screen and (max-width:375px) {
+.backIcon-svg, .nextIcon-svg{width: 25px;}
+.avatar-top{width: 40px;}
+.nextIcon-svg{top: 14px}
+.profBtm span{width: 28px;}
+.opt-btm li p, .opt-btm li h6{font-size: 3.7vw; line-height: 3.7vw}
+.opt-btm li h5{font-size: 6vw}
+.opt-btm li h6 small{font-size: 2.4vw;margin-top: 3px;}
+.slick-prev, .slick-next {top: 35.1%;}
+.gal-slider .slick-prev, .gal-slider .slick-next {top: 50%;}
+.prev-full a{padding: 16px 0;}
+.cr-inner{height: 318px;}
+.emotab{height: 440px;}
+.vc-tn{width: 100px;height: 100px}
+.vc-tn img{width: 100%; height: auto}
+i.ringing, i.endcall{width: 80px;height: 80px;}
+#content .cr-inner{height: 405px;}
+#content .emotab{height: 525px;}
+.cbiL ul{height: 485px;}
+#selfie-profile-slide .slick-prev, #selfie-profile-slide .slick-next {top: 347px;}
+.sibtm{padding: 19px 5px}
+}
+@media screen and (max-width:320px) {
+.backIcon-svg, .nextIcon-svg{width: 20px;}
+.premC{width: 25px;text-align: center}
+.premC strong{font-size: 2vw}
+.ratingC svg.star-svg{width: 18px;}
+.nextIcon-svg{top: 13px}
+.avatar-top{width: 35px;}
+.currentPT{top: 13px}
+.rytD a{font-size: 3.5vw}
+.top-slogan{padding:3px 10px;}
+.profD li{margin: 15px 7px;}
+.profBtm span{width: 22px;}
+.deDrp{margin: 0 14% 0 -2px;}
+.slick-prev, .slick-next {top: 33.2%;}
+.gal-slider .slick-prev, .gal-slider .slick-next {top: 50%;}
+.chatBbl{max-width: 79%;}
+.cr-inner{height: 230px;}
+#makecall img{width: 16px;height: auto}
+.emotab{height: 340px;}
+.voice-call h5{font-size: 16px;}
+.voice-call h4{font-size: 24px;}
+.vc-tn{width: 80px;height: 80px}
+i.ringing, i.endcall{width: 65px;height: 65px;}
+#content .cr-inner{height: 320px;}
+#content .emotab{height: 430px;}
+.cbiL ul{height: 445px;}
+#selfie-profile-slide .slick-prev, #selfie-profile-slide .slick-next {top: 294px;}
+}
+
+@media only screen and (min-width: 300px) and (max-width: 740px) and (orientation:landscape) {
+
+
+}
+
+

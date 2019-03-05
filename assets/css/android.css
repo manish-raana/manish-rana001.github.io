@@ -1,0 +1,7 @@
+@media screen and (max-width:420px) {
+#selfie-profile-slide .slick-prev, #selfie-profile-slide .slick-next{top:12%;}
+.mobpad{z-index: 88}
+}
+@media screen and (max-width:380px) {
+#selfie-profile-slide .slick-prev, #selfie-profile-slide .slick-next{top:11.3%;}
+}
