@@ -42,7 +42,7 @@ function errorMsg(msg, error) {
   }
 }
 
-async function init(e) {
+ function init(err) {
   navigator.mediaDevices.getUserMedia(constraints)
 .then(function(mediaStream) {
   var video = document.querySelector('video');
