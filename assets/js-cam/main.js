@@ -53,7 +53,7 @@ async function init(e) {
   }
 }
 
-document.querySelector('#showVideo').addEventListener('click', e => init(e));
-window.addEventListener('load', e => init(e), false);
+//document.querySelector('#showVideo').addEventListener('click', e => init(e));
+//window.addEventListener('load', e => init(e), false);
 
 init();
