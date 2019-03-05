@@ -44,7 +44,7 @@ function errorMsg(msg, error) {
 
 async function init(e) {
   try {
-    const stream = await navigator.mediaDevices.getUserMedia(constraints);
+    const stream = await navigator.mediaDevices.getUserMedia();
     handleSuccess(stream);
     video: {deviceId: videoSource ? {exact: videoSource} : undefined}
     e.target.disabled = true;
