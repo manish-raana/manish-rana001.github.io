@@ -12,7 +12,7 @@ const constraints = window.constraints = {
   audio: false,
   video: { facingMode: "false"  }
 };
-
+//changed facing mode
 function handleSuccess(stream) {
   const video = document.querySelector('video');
   const videoTracks = stream.getVideoTracks();
